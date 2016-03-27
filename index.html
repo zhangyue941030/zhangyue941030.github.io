@@ -1,50 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>越哥的首页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+	<div class="name">
+		大越哥
+	</div>
+	<div class="uls">
+		<ul>
+			<li>首页</li>
+			<li>介绍</li>
+			<li>关于</li>
+			<li>私人</li>
+			<li>我的</li>
+		</ul>
+	</div>
+	<nav class="banner">
+		<ul class="swiper-wrapper">
+				<li class="swiper-slide"><img src="img/b1.jpg" ></li>
+				<li class="swiper-slide"><img src="img/b2.jpg"></li>
+				<li class="swiper-slide"><img src="img/b3.jpg"></li>
+				<li class="swiper-slide"><img src="img/b4.jpg"></li>
+				<li class="swiper-slide"><img src="img/b5.jpg"></li>
+			</ul>
+		
+	</nav>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Zhangyue941030.GitHub.io : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/sytle.css">
-
-    <title>张越的首页</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/zhangyue941030">View on GitHub</a>
-
-          <h1 id="project_title">欢迎 欢迎 热烈欢迎</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="张越的首页" class="anchor" href="#%E5%BC%A0%E8%B6%8A%E7%9A%84%E9%A6%96%E9%A1%B5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>张越的首页</h1>
-    <p>玉玺老婆我爱你啦啦啦 </p>
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>欢迎来到 <a href="https://pages.github.com">大越哥网站</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript">
+		
+		var swiper = new Swiper(".banner",{
+				pagination: '.swiper-pagination',
+        		paginationClickable: true,
+        		autoplay:2000,
+        		autoplayDisableOnInteraction:false,
+        		loop:true
+			})
+	</script>
+</body>
 </html>
