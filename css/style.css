@@ -26,9 +26,6 @@ body{
 }
 .banner ul li{
 	float: left;
-	border-radius: 50px;
-	width: 1272px;
-	height: 469px;
 }
 .banner ul li img{
 	display: block;
